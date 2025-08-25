@@ -7,15 +7,12 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
 
-    <title>{{ $title ?? 'Page Title' }}</title>
+    <title>{{ $title ?? 'ThetaMetrika' }}</title>
 </head>
 
 <body>
-    <div>
-        @yield('content')
-    </div>
+    @yield('content')
     @livewireScripts
-
 </body>
 
 </html>
